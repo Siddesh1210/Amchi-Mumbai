@@ -29,6 +29,7 @@ nav {
   background-image: url(../Images/frontpage.jpg);
   background-position: 0px;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   height: 100vh;
 }
