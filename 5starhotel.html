@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Amchi Mumbai - Hotel</title>
+    <link rel="stylesheet" href="./Resources/style.css">
+    <link rel="stylesheet" href="./Resources/5starhotel.css">
+    <!-- bootstrap icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <!-- css bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- animaton link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- favicon link -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- favicon end of link -->
+  </head>
+  <body>
+    <!-- navbar begin -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark fixed-top"
+      style="background-color: black"
+    >
+      <div class="container-fluid">
+        <img src="./Images/Logo.jpg" class="img-fluid logo" width="5%" />
+        <a class="navbar-brand" href="#"
+          ><span style="color: red">आ</span>मची
+          <span style="color: red">M</span>umbai</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle "
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Tourist Place
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./city-tour.html">City-Tour</a></li>
+                <li><a class="dropdown-item" href="./shoppingmall.html">Shopping-Mall</a></li>
+                <li><a class="dropdown-item" href="./religious.html">Religious-Place</a></li>
+                <li><a class="dropdown-item" href="./waterpark.html">WaterPark</a></li>
+                <li><a class="dropdown-item" href="./localmarket.html">LocalMarket</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Hotels
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">5-Star</a></li>
+                <li><a class="dropdown-item" href="4starhotel.html">4-Star</a></li>
+                <li><a class="dropdown-item" href="3starhotel.html">3-Star</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search your place"
+              aria-label="Search" id="input-text"
+            />
+            <button class="btn btn-outline-light" type="button" onclick="searchContext()">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+    <!-- start of container-fluid -->
+    <div class="container-fluid mt-5 pt-2 text-container">
+        <!-- header start -->
+        <div class="row row-head justify-content-center text-center">
+            <div class="col-md-8 col-sm-12 tagline-headimage" style="color:rgb(250, 248, 248);text-shadow:5px 5px 3px black;" data-aos="fade-up" data-aos-duration="2000">
+                <h1 style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;letter-spacing: 2px;">Hotel-Your Next home</h1>
+                <h4>Welcome-Sit-Relax-Enjoy</h4>
+            </div>
+        </div>
+        <!-- header-end -->
+        <!-- start of list of place head -->
+             <div class="row justify-content-center mt-3">
+                <div class="col-md-11 text-center" data-aos="fade-up" data-aos-duration="2000">
+                    <h1>To<span style="border-bottom:3px solid rgb(236, 195, 141)">p 5 Star Hotels in Mumb</span>ai</h1>
+                    <h5>In today's chaotic urban lifestyle, when everyone is craving relaxation, there is no better place to be in than the luxurious hotels in Mumbai. And what's there not to like about a day full of entertainment, relaxation and joy.</h5>
+                </div>
+             </div>
+        <!-- end of list of place -->
+        <!-- start of list of place -->
+        <div class="row justify-content-evenly mt-3">
+            <div class="col-lg-5" style="align-items: center;" data-aos="fade-up" data-aos-duration="2000">
+                <img src="./Images/5hotel1.jpg" class="img-fluid border image-places">
+            </div>
+            <div class="col-lg-5 text-center" data-aos="fade-up" data-aos-duration="2000">
+                <h2>The Taj Mahal Palace, Mumbai</h2>
+                <h5><span style="font-weight:700;">Hotel Overview : </span>The Taj Mahal Palace, Mumbai is conveniently located within touching distance to prominent tourist attractions in and around Mumbai. Our hotel in Mumbai is also the perfect destination for a blissful getaway from Ahmedabad. Enjoy our warm hospitality and service that make you feel at home. Explore the all meals inclusive 4D Travel offer to plan your next stay.</h5>
+                <h5 class="mt-4 justify-content-evenly text-center" data-aos="flip-up" data-aos-duration="2000"><a href="https://www.google.co.in/maps/place/The+Taj+Mahal+Palace,+Mumbai/@18.9217033,72.8309893,17z/data=!3m2!4b1!5s0x3be7d1c0c4d5ac1b:0xac82d2d2d765e4f5!4m8!3m7!1s0x3be7d1c06fffffff:0xc0290485a4d73f57!5m2!4m1!1i2!8m2!3d18.9216982!4d72.833178" style="text-decoration:none;color:black;" target="_blank"><i class="bi bi-geo-alt"></i>Apollo Bandar Road, Mumbai</a></h5>
+                <a href="https://www.tajhotels.com/en-in/taj/taj-mahal-palace-mumbai/" target="_blank" ><button type="button" class="btn btn-outline-dark" data-aos="flip-up" data-aos-duration="2000">Check availability</button></a>
+
+            </div>
+        </div>
+
+        <div class="row justify-content-evenly mt-3">
+            <div class="col-lg-5" style="align-items: center;" data-aos="fade-up" data-aos-duration="2000">
+                <img src="./Images/5hotel2.jpg" class="img-fluid border image-places">
+            </div>
+            <div class="col-lg-5 text-center" data-aos="fade-up" data-aos-duration="2000">
+                <h2>The Oberoi Mumbai</h2>
+                <h5><span style="font-weight:700;">Hotel Overview:</span>The Oberoi, Mumbai offers luxury and convenience with a wide range of 24-hour services like spa, butler service, laundry, concierge, business center and travel desk. There are female butlers for the comfort of female guests traveling alone. Guests can enjoy shopping at the luxury retail arcade.</h5>
+                <h5 class="mt-4 justify-content-evenly text-center" data-aos="flip-up" data-aos-duration="2000"><a href="https://www.google.co.in/maps/place/The+Oberoi,+Mumbai/@18.92698,72.8162244,17z/data=!3m1!4b1!4m8!3m7!1s0x3be7d1e96fffffff:0x385eaa65d82abec1!5m2!4m1!1i2!8m2!3d18.926975!4d72.8204516" style="text-decoration:none;color:black;" target="_blank"><i class="bi bi-geo-alt"></i>Nariman Point Mumbai</a></h5>
+                <a href="https://res.oberoihotels.com/?adult=2&arrive=2022-09-08&brand=OB&chain=24188&child=0&config=oberoi&configcode=oberoi&currency=INR&depart=2022-09-09&gclid=Cj0KCQjw39uYBhCLARIsAD_SzMQDDy2468YqFNejeueDeFXFkNqXsIXvJZDx6kw6poX7oySnrxbVV-YaAkFhEALw_wcB&hotel=5270&level=hotel&locale=en-US&rooms=1&theme=oberoi&themecode=oberoi&utm_campaign=MetaI/O&utm_content=IN&utm_medium=MapResults&utm_source=GoogleHPA" target="_blank"><button type="button" class="btn btn-outline-dark" data-aos="flip-up" data-aos-duration="2000">Check availability</button></a>
+            </div>
+        </div>
+
+        <div class="row justify-content-evenly mt-3">
+            <div class="col-lg-5" style="align-items: center;" data-aos="fade-up" data-aos-duration="2000">
+                <img src="./Images/5hotel3.webp" class="img-fluid border image-places">
+            </div>
+            <div class="col-lg-5 text-center" data-aos="fade-up" data-aos-duration="2000">
+                <h2>The Taj Mahal Tower Mumbai</h2>
+                <h5><span style="font-weight:700;">Hotel Overview:</span>The Taj Mahal Palace, Mumbai is conveniently located within touching distance to prominent tourist attractions in and around Mumbai. Our hotel in Mumbai is also the perfect destination for a blissful getaway from Ahmedabad. Enjoy our warm hospitality and service that make you feel at home. Explore the all meals inclusive 4D Travel offer to plan your next stay.</h5>
+                <h5 class="mt-4 justify-content-evenly text-center" data-aos="flip-up" data-aos-duration="2000"><a href="https://www.google.co.in/maps/place/Taj+Mahal+Tower,+Mumbai/@18.9225905,72.8309656,17z/data=!3m1!4b1!4m8!3m7!1s0x3be7d1c0d1209473:0xbeee8e0814d211fe!5m2!4m1!1i2!8m2!3d18.9225854!4d72.8331543" style="text-decoration:none;color:black;" target="_blank"><i class="bi bi-geo-alt"></i>Apollo Bunder, Mumbai</a></h5>
+                <a href="https://www.tajhotels.com/en-in/taj/taj-mahal-tower-mumbai/" target="_blank"><button type="button" class="btn btn-outline-dark" data-aos="flip-up" data-aos-duration="2000">Check availability</button></a>
+                
+            </div>
+        </div>
+
+        <div class="row justify-content-evenly mt-3">
+            <div class="col-lg-5" style="align-items: center;" data-aos="fade-up" data-aos-duration="2000">
+                <img src="./Images/5hotel4.webp" class="img-fluid border image-places">
+            </div>
+            <div class="col-lg-5 text-center" data-aos="fade-up" data-aos-duration="2000">
+                <h2>JW Marriott Mumbai Juhu</h2>
+                <h5><span style="font-weight:700;">Hotel Overview:</span>The 5-star Jw Marriott Mumbai Juhu Hotel is set 2.5 km from Nanavati Hospital. The venue features a swimming pool and breathtaking views of ocean, boasting setting close to Juhu Beach Vile Parle.This accommodation is positioned in the centre of Mumbai. At this property you'll be in 18 minutes' walk from Juhu Beach. One Street is a short drive away.</h5>
+                <h5 class="mt-4 justify-content-evenly text-center" data-aos="flip-up" data-aos-duration="2000"><a href="https://www.google.co.in/maps/place/JW+Marriott+Mumbai+Juhu/@19.1018555,72.8240346,17z/data=!3m1!4b1!4m8!3m7!1s0x3be7c9bf6271e62d:0x12861889e9de122a!5m2!4m1!1i2!8m2!3d19.1018504!4d72.8262233" style="text-decoration:none;color:black;" target="_blank"><i class="bi bi-geo-alt"></i>Juhu, Mumbai</a></h5>
+                <a href="https://jw-marriott-juhu.hotelsofmumbai.com/en/" target="_blank"><button type="button" class="btn btn-outline-dark" data-aos="flip-up" data-aos-duration="2000">Check availability</button></a>  
+            </div>
+        </div>
+
+        <div class="row justify-content-evenly mt-3">
+            <div class="col-lg-5" style="align-items: center;" data-aos="fade-up" data-aos-duration="2000">
+              <img src="./Images/5hotel5.jpg" class="img-fluid border image-places">
+            </div>
+            <div class="col-lg-5 text-center" data-aos="fade-up" data-aos-duration="2000">
+                <h2>JW Marriott Mumbai Sahar Airport</h2>
+                <h5><span style="font-weight:700;">Hotel Overview:</span>Unparalleled luxury and world-class service await you at JW Marriott Mumbai Sahar in India. Our hotel is conveniently located in Andheri East, just a short drive from Mumbai's international and domestic airports and is conveniently located near the area's business hubs. Sample a variety of cuisines, including authentic Italian and classic Indian, at our hotel's restaurants.</h5>
+                <h5 class="mt-4 justify-content-evenly text-center" data-aos="flip-up" data-aos-duration="2000"><a href="https://www.google.co.in/maps/place/Jw+Marriott+Sahar,+Mumbai,+Maharashtra/@19.102539,72.8759084,17z/data=!3m1!4b1!4m5!3m4!1s0x3be7c86a2ad7ac91:0xc923a93826ceb381!8m2!3d19.1020432!4d72.8785014" style="text-decoration:none;color:black;" target="_blank"><i class="bi bi-geo-alt"></i>Andheri, Mumbai</a></h5>
+                <a href="https://www.marriott.com/reservation/rateListMenu.mi" target="_blank"><button type="button" class="btn btn-outline-dark" data-aos="flip-up" data-aos-duration="2000">Check availability</button></a> 
+            </div>
+        </div>
+
+        <div class="row justify-content-evenly mt-3">
+            <div class="col-lg-5" style="align-items: center;" data-aos="fade-up" data-aos-duration="2000">
+                <img src="./Images/5hotel6.jpg" class="img-fluid border image-places">
+            </div>
+            <div class="col-lg-5 text-center" data-aos="fade-up" data-aos-duration="2000">
+                <h2>Hotel Sahara Star-Mumbai Airport</h2>
+                <h5><span style="font-weight:700;">Hotel Overview:</span>Hotel Sahara Star-Mumbai Airport is located 2.6 km from Juhu Garden and features a play area, a community pool and billiards. Juhu Beach is less than 2.6 km away.This deluxe venue is strategically situated in Western Suburbs district. It is just 4 km to the downtown of Mumbai. City Theme Park is also within a few minutes drive from Hotel Sahara Star-Mumbai Airport.</h5>
+                <h5 class="mt-4 justify-content-evenly text-center" data-aos="flip-up" data-aos-duration="2000"><a href="https://www.google.co.in/maps/place/Hotel+Sahara+Star/@19.0957479,72.8516409,17z/data=!3m1!4b1!4m8!3m7!1s0x3be7c9ae7603612f:0x13cd7021e7dec9de!5m2!4m1!1i2!8m2!3d19.0957428!4d72.8538296" style="text-decoration:none;color:black;" target="_blank"><i class="bi bi-geo-alt"></i>VilleParle Mumbai</a></h5>
+                <a href="https://www.saharastar.com/" target="_blank"><button type="button" class="btn btn-outline-dark" data-aos="flip-up" data-aos-duration="2000">Check availability</button></a> 
+            </div>
+        </div>
+
+        <!-- end of list of place -->
+
+     
+    <!-- start of footer -->
+    <div class="row bg-dark text-white pt-3 history-head justify-content-evenly mt-3" style="text-align:justify;">
+        <div class="col-sm-3" data-aos="fade-up" data-aos-duration="2000">
+          <h4><span style="color:rgb(253, 44, 7)">A</span>mchi-<span style="color:rgb(253, 44, 7)">M</span>umbai</h4>
+          <p>Amchi-Mumbai is tourist guide and accomodation recommendation website that help the tourists with best place to visit in mumbai and hotel to stay in best place.</p>
+          <h4><i class="bi bi-facebook m-2 bi-home"></i><i class="bi bi-instagram m-2 bi-home"></i><i class="bi bi-twitter m-2 bi-home"></i><i class="bi bi-pinterest m-2 bi-home"></i></h4>
+        </div>
+        <div class="col-sm-2" data-aos="fade-up" data-aos-duration="2000">
+          <h4>Information</h4>
+          <p>Career<br>Case Studies<br>Trust & Safety<br>Business<br>Social Impact<br>Equity & Diversity<br>Logo & Guideline</p>
+        </div>
+        <div class="col-sm-2" data-aos="fade-up" data-aos-duration="2000">
+          <h4>Navigation</h4>
+          <p>Home<br>About Us<br>Tourist Place<br>Hotels<br>WaterPark<br>Contact Us<br>Features</p>
+        </div>
+        <div class="col-sm-3" data-aos="fade-up" data-aos-duration="2000">
+          <h4>Request A Quote</h4>
+          <form>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Name">
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Email">
+            </div>
+            <div class="mb-2">
+              <textarea class="w-100 p-1" style="height:10vh;border-radius:10px;" placeholder="Write your Message"></textarea>
+            </div>
+            <div class="mb-3">
+              <button type="submit w-100" class="btn" style="background-color:rgb(253, 44, 7);color:white">Send Message</button>
+            </div>
+          </form>
+        </div>
+        
+      </div>
+      <div class="row justify-content-center text-center bg-dark text-white">
+        <div class="col-sm-8"><p>Copyright <i class="bi bi-c-circle bi-home"></i> <span style="color:rgb(253, 44, 7)">Amchi-Mumbai</span> 2022 . All right reserved.<br>Made with <i class="bi bi-heart bi-home"></i> by <span style="color:rgb(253, 44, 7)">Siddesh Jaiswal. </span></p></div>
+      </div>
+      <!-- end of footer -->
+    <!-- end of container-fluid -->
+    </div>
+    <script src="./app.js"></script>
+    <!-- js bootstrap part -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <!-- aos js  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+.row-head{
+    background-image: url(../Images/sm-bg.jpg);
+    height:40vh;
+    background-size: cover;
+}
+
+@media (min-width:700px){
+.tagline-headimage{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:800;
+    padding-top:20vh;
+}
+}
+@media (max-width:699px){
+    .tagline-headimage{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-weight:800;
+        padding-top:14vh;
+    }
+}
+.text-container{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media (min-width:1250px)
+{
+    .first-place{
+        padding-top:7vh;
+    }
+}

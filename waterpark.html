@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Amchi Mumbai - WaterPark</title>
+    <link rel="stylesheet" href="./Resources/style.css">
+    <link rel="stylesheet" href="./Resources/waterpark.css">
+    <!-- bootstrap icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <!-- css bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- animaton link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- favicon link -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- favicon end of link -->
+  </head>
+  <body>
+    <!-- navbar begin -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark fixed-top"
+      style="background-color: black"
+    >
+      <div class="container-fluid">
+        <img src="./Images/Logo.jpg" class="img-fluid logo" width="5%" />
+        <a class="navbar-brand" href="#"
+          ><span style="color: red">आ</span>मची
+          <span style="color: red">M</span>umbai</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Tourist Place
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./city-tour.html">City-Tour</a></li>
+                <li><a class="dropdown-item" href="./shoppingmall.html">Shopping-Mall</a></li>
+                <li><a class="dropdown-item" href="./religious.html">Religious-Place</a></li>
+                <li><a class="dropdown-item" href="#">WaterPark</a></li>
+                <li><a class="dropdown-item" href="./localmarket.html">LocalMarket</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Hotels
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./5starhotel.html">5-Star</a></li>
+                <li><a class="dropdown-item" href="./4starhotel.html">4-Star</a></li>
+                <li><a class="dropdown-item" href="./3starhotel.html">3-Star</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search your place"
+              aria-label="Search" id="input-text"
+            />
+            <button class="btn btn-outline-light" type="button" onclick="searchContext()">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+    <!-- start of container-fluid -->
+    <div class="container-fluid mt-5 pt-2 text-container">
+        <!-- header start -->
+        <div class="row row-head justify-content-center text-center">
+            <div class="col-md-8 col-sm-12 tagline-headimage" style="color:rgb(250, 248, 248);text-shadow:5px 5px 3px black;" data-aos="fade-up" data-aos-duration="2000">
+                <h1 style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;letter-spacing: 2px;">WaterPark</h1>
+                <h4>SPEND YOUR TIME WORTHWHILE</h4>
+            </div>
+        </div>
+        <!-- header-end -->
+        <!-- start of list of place head -->
+             <div class="row justify-content-center mt-3">
+                <div class="col-md-11 text-center" data-aos="fade-up" data-aos-duration="2000">
+                    <h1>Mu<span style="border-bottom:3px solid rgb(63, 236, 193)">mbai - WaterPa</span>rk</h1>
+                    <h5>In today's chaotic urban lifestyle, when everyone is craving relaxation, there is no better place to be in than the water parks in Mumbai. And what's there to not like about a day full of entertainment and joy? Slides that take you to wave pools, rain dance parties or just vast lazy pool areas where one can relax and get away from the biting heat.</h5>
+                </div>
+             </div>
+        <!-- end of list of place -->
+        <!-- start of list of place -->
+        <div class="row justify-content-evenly mt-3">
+            <div class="col-lg-5" style="align-items: center;" data-aos="fade-up" data-aos-duration="2000">
+                <img src="Images/wp-1.jpg" class="img-fluid border image-places">
+            </div>
+            <div class="col-lg-5 text-center" data-aos="fade-up" data-aos-duration="2000">
+                <h2>Water Kingdom</h2>
+                <h5><span style="font-weight:700;">WaterPark Overview:</span>The Water Kingdom is considered to be Asia's largest theme water park which is located at a distance of 50 km from Mumbai. The Water Kingdom features a various range of water activities such as a wave pool, lazy river, and modulated slides so that you can have endless fun and adventure.</h5>
+                <h5 class="mt-4 justify-content-evenly text-center"><i class="bi bi-clock"></i> 10:30 AM to 06:30 PM<br><a href="https://www.google.co.in/maps/place/Water+Kingdom/@19.2315672,72.772506,13z/data=!4m18!1m12!4m11!1m3!2m2!1d72.7483017!2d19.2389418!1m6!1m2!1s0x3be7b158c07de9a1:0x32baf35dc9c8af10!2sWater+Kingdom,+Global+Pagoda+Road,+Essel+world+Amusement+Park,+Borivali+West,+Mumbai,+Maharashtra+400092!2m2!1d72.8075257!2d19.2314895!3m4!1s0x3be7b158c07de9a1:0x32baf35dc9c8af10!8m2!3d19.2314895!4d72.8075257" style="text-decoration:none;color:black;" target="_blank"><i class="bi bi-geo-alt"></i>Global Pagoda Road, Borivali West, Mumbai</a></h5>
+                <a href="https://booking.waterkingdom.in:9802/#/pages/home-screen" target="_blank"><button type="button" class="btn btn-outline-info" data-aos="flip-up" data-aos-duration="2000">Book your ticket</button></a>
+
+            </div>
+        </div>
+
+        <div class="row justify-content-evenly mt-3">
+            <div class="col-lg-5" style="align-items: center;" data-aos="fade-up" data-aos-duration="2000">
+                <img src="Images/wp-2.webp" class="img-fluid border image-places">
+            </div>
+            <div class="col-lg-5 text-center" data-aos="fade-up" data-aos-duration="2000">
+                <h2>Essel World</h2>
+                <h5><span style="font-weight:700;">WaterPark Overview:</span>EsselWorld, one of the most loved entertainment destinations that is situated on the coastal Gorai Village amidst the lush green surroundings is now available for shoots. The island of fun that offers EsselWorld- India’s largest amusement park, Water Kingdom- Asia’s largest themed water park and EsselWorld Bird Park</h5>
+                <h5 class="mt-4 justify-content-evenly text-center"><i class="bi bi-clock"></i> 10:00 AM to 07:00 PM<br><a href="https://www.google.co.in/maps/place/EsselWorld/@19.2315511,72.802869,17z/data=!3m1!4b1!4m5!3m4!1s0x3be7b411184f63b1:0xc4daa22087d4f46e!8m2!3d19.231546!4d72.8050577" style="text-decoration:none;color:black;" target="_blank"><i class="bi bi-geo-alt"></i>Gorai Island, Borivali West, Mumbai</a></h5>
+                <a href="https://www.esselworld.in/travel/entry-rates.html#Entry-Rates" target="_blank"><button type="button" class="btn btn-outline-info" data-aos="flip-up" data-aos-duration="2000">Book your ticket</button></a>
+            </div>
+        </div>
+
+        <div class="row justify-content-evenly mt-3">
+            <div class="col-lg-5" style="align-items: center;" data-aos="fade-up" data-aos-duration="2000">
+                <img src="Images/wp-3.jpeg" class="img-fluid border image-places">
+            </div>
+            <div class="col-lg-5 text-center" data-aos="fade-up" data-aos-duration="2000">
+                <h2>Great Escape</h2>
+                <h5><span style="font-weight:700;">WaterPark Overview:</span>Great Escape is a water theme park spread across 24 acres of land in Virar East, Maharashtra, Mumbai.A day picnic here , is the best option with enjoying 18 exciting rides, experience the thrill of over a dozen breathtaking water slides, Wave Pools, Landing Pool, Kiddies Pool, Jungle Safari Slides, Rain dance, Pendullum Slide, Mini Multilane , Funnel, Oxygen Garden and lots more.</h5>
+                <h5 class="mt-4 justify-content-evenly text-center"><i class="bi bi-clock"></i> 10:00 AM to 06:00 PM<br><a href="https://www.google.co.in/maps/place/EsselWorld/@19.2315511,72.802869,17z/data=!3m1!4b1!4m5!3m4!1s0x3be7b411184f63b1:0xc4daa22087d4f46e!8m2!3d19.231546!4d72.8050577" style="text-decoration:none;color:black;" target="_blank"><i class="bi bi-geo-alt"></i>Parol Rd, Virar, Mumbai</a></h5>
+                <a href="https://www.greatescape.co.in/" target="_blank"><button type="button" class="btn btn-outline-info" data-aos="flip-up" data-aos-duration="2000">Book your ticket</button></a>
+                
+            </div>
+        </div>
+
+        <div class="row justify-content-evenly mt-3">
+            <div class="col-lg-5" style="align-items: center;" data-aos="fade-up" data-aos-duration="2000">
+                <img src="Images/wp-4.jpg" class="img-fluid border image-places">
+            </div>
+            <div class="col-lg-5 text-center" data-aos="fade-up" data-aos-duration="2000">
+                <h2>Adlabs Aquamagica</h2>
+                <h5><span style="font-weight:700;">WaterPark Overview:</span>India's first international standard water park, we are Imagicaa Water park.Imagicaa water park has 13 thrilling rides and 7 exquisite restaurants.Imagicaa water park is the place to meet extraordinary rides take you on a journey of twists, turns, and gazillion gallons of aqua fun like never before!</h5>
+                <h5 class="mt-4 justify-content-evenly text-center"><i class="bi bi-clock"></i> 10:00 AM to 08:00 PM<br><a href="https://www.google.co.in/maps/place/Imagicaa/@18.7679396,73.2735659,15z/data=!4m12!1m6!3m5!1s0x3be8062553ab1ead:0x2e7e55c634a33f71!2sImagicaa!8m2!3d18.7679396!4d73.2823206!3m4!1s0x3be8062553ab1ead:0x2e7e55c634a33f71!8m2!3d18.7679396!4d73.2823206" style="text-decoration:none;color:black;" target="_blank"><i class="bi bi-geo-alt"></i>Mumbai-Pune Expressway, Mumbai</a></h5>
+                <a href="https://book.adlabsimagica.com/" target="_blank"><button type="button" class="btn btn-outline-info" data-aos="flip-up" data-aos-duration="2000">Book your ticket</button></a>  
+            </div>
+        </div>
+
+        <div class="row justify-content-evenly mt-3">
+            <div class="col-lg-5" style="align-items: center;" data-aos="fade-up" data-aos-duration="2000">
+              <img src="Images/wp-5.jpg" class="img-fluid border image-places">
+            </div>
+            <div class="col-lg-5 text-center" data-aos="fade-up" data-aos-duration="2000">
+                <h2>Shangrila Water Park</h2>
+                <h5><span style="font-weight:700;">WaterPark Overview:</span>Shangrila Water Park is spread over 15 acres of land and is a splendid place for a family holiday. The water park is on the Mumbai - Nashik Highway and is 45 km away from the city centre. The water park has a waterfall that flows all year round. It also features many slides and rain dance party for all to enjoy. </h5>
+                <h5 class="mt-4 justify-content-evenly text-center"><i class="bi bi-clock"></i> 10:00 AM to 06:00 PM<br><a href="https://www.google.co.in/maps/place/Imagicaa/@18.7679396,73.2735659,15z/data=!4m12!1m6!3m5!1s0x3be8062553ab1ead:0x2e7e55c634a33f71!2sImagicaa!8m2!3d18.7679396!4d73.2823206!3m4!1s0x3be8062553ab1ead:0x2e7e55c634a33f71!8m2!3d18.7679396!4d73.2823206" style="text-decoration:none;color:black;" target="_blank"><i class="bi bi-geo-alt"></i>Thane, Mumbai</a></h5>
+                <a href="https://www.beyondenough.in/amusement-park/shangrila-water-park/ticket-booking" target="_blank"><button type="button" class="btn btn-outline-info" data-aos="flip-up" data-aos-duration="2000">Book your ticket</button></a> 
+            </div>
+        </div>
+
+        <div class="row justify-content-evenly mt-3">
+            <div class="col-lg-5" style="align-items: center;" data-aos="fade-up" data-aos-duration="2000">
+                <img src="Images/wp-6.jpg" class="img-fluid border image-places">
+            </div>
+            <div class="col-lg-5 text-center" data-aos="fade-up" data-aos-duration="2000">
+                <h2>Suraj WaterPark</h2>
+                <h5><span style="font-weight:700;">WaterPark Overview:</span>Suraj Water Park that has received many national and international awards and is called the Pride of Maharashtra. The water park has some really cool slides like the Labakzabak slide, Ulatpalat slides, and Ding-dong slides. </h5>
+                <h5 class="mt-4 justify-content-evenly text-center"><i class="bi bi-clock"></i> 10:00 AM to 06:30 PM<br><a href="https://www.google.com/maps/dir//Suraj+Water+Park+MH+SH+42+Dongripada,+Thane+West+Thane,+Maharashtra+400615/@19.254564,72.9706659,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x3be7b8e3a9fa723b:0x8345963c2dfa04a0" style="text-decoration:none;color:black;" target="_blank"><i class="bi bi-geo-alt"></i>Ghodbundar Highway, Thane, Mumbai</a></h5>
+                <a href="http://www.surajwaterpark.com/" target="_blank"><button type="button" class="btn btn-outline-info" data-aos="flip-up" data-aos-duration="2000">Book your ticket</button></a> 
+            </div>
+        </div>
+
+        <div class="row justify-content-evenly mt-3">
+            <div class="col-lg-5" style="align-items: center;" data-aos="fade-up" data-aos-duration="2000">
+                <img src="Images/wp-7.jpg" class="img-fluid border image-places">
+            </div>
+            <div class="col-lg-5 text-center" data-aos="fade-up" data-aos-duration="2000">
+                <h2>Tikuji-ni-wadi</h2>
+                <h5><span style="font-weight:700;">WaterPark Overview:</span>Tikuji-ni-wadi Water Parks In Mumbai in Thane is a favourite picnic location for schools as well as families, and it features slides for infants as well as adventure seekers, a giant wave pool, a lazy River, and also a gift shop for a day well spent</h5>
+                <h5 class="mt-4 justify-content-evenly text-center"><i class="bi bi-clock"></i> 10:00 AM to 07:00 PM<br><a href="https://www.google.co.in/maps/place/Tikuji-ni-Wadi/@19.2379928,72.9646898,17z/data=!3m1!4b1!4m5!3m4!1s0x3be7cf21727d5445:0x4c03231e61013cd8!8m2!3d19.2379877!4d72.9668785" style="text-decoration:none;color:black;" target="_blank"><i class="bi bi-geo-alt"></i>Ghodbundar Rd, Thane, Mumbai</a></h5>
+                <a href="https://www.tikuji-ni-wadi.com/water-park/" target="_blank"><button type="button" class="btn btn-outline-info" data-aos="flip-up" data-aos-duration="2000">Book your ticket</button></a> 
+            </div>
+        </div>
+
+        <div class="row justify-content-evenly mt-3">
+          <div class="col-lg-5" style="align-items: center;" data-aos="fade-up" data-aos-duration="2000">
+              <img src="Images/wp-8.png" class="img-fluid border image-places">
+          </div>
+          <div class="col-lg-5 text-center" data-aos="fade-up" data-aos-duration="2000">
+              <h2>Anand Sagar Water Park</h2>
+              <h5><span style="font-weight:700;">WaterPark Overview:</span>The Anand Sagar Water Park is the perfect theme park to spend time with your friends. The water park boasts a variety of water rides and slides.Slide tower is the most fun ride of the park, which rides you through many twists, turns and spirals before sending you into the pool.</h5>
+                <h5 class="mt-4 justify-content-evenly text-center"><i class="bi bi-clock"></i> 10:00 AM to 07:00 PM<br><a href="https://www.google.co.in/maps/place/Anand+Sagar+Resort+%26+Water+Park,+Pale+Gaon,+Maharashtra+421005/@19.1861634,73.1671829,18.08z/data=!4m5!3m4!1s0x3be794973cf2eb83:0xb11662f460c9d4aa!8m2!3d19.1864382!4d73.1683347" style="text-decoration:none;color:black;" target="_blank"><i class="bi bi-geo-alt"></i>MIDC Highway, Ambarnath, Thane, Mumbai</a></h5>
+                <a href="http://www.anandsagaronline.com/" target="_blank"><button type="button" class="btn btn-outline-info" data-aos="flip-up" data-aos-duration="2000">Book your ticket</button></a> 
+          </div>
+      </div>
+
+        <!-- end of list of place -->
+
+     
+    <!-- start of footer -->
+    <div class="row bg-dark text-white pt-3 history-head justify-content-evenly" style="text-align:justify;">
+        <div class="col-sm-3 ">
+          <h4><span style="color:rgb(253, 44, 7)">A</span>mchi-<span style="color:rgb(253, 44, 7)">M</span>umbai</h4>
+          <p>Amchi-Mumbai is tourist guide and accomodation recommendation website that help the tourists with best place to visit in mumbai and hotel to stay in best place.</p>
+          <h4><i class="bi bi-facebook m-2 bi-home"></i><i class="bi bi-instagram m-2 bi-home"></i><i class="bi bi-twitter m-2 bi-home"></i><i class="bi bi-pinterest m-2 bi-home"></i></h4>
+        </div>
+        <div class="col-sm-2">
+          <h4>Information</h4>
+          <p>Career<br>Case Studies<br>Trust & Safety<br>Business<br>Social Impact<br>Equity & Diversity<br>Logo & Guideline</p>
+        </div>
+        <div class="col-sm-2 ">
+          <h4>Navigation</h4>
+          <p>Home<br>About Us<br>Tourist Place<br>Hotels<br>WaterPark<br>Contact Us<br>Features</p>
+        </div>
+        <div class="col-sm-3 ">
+          <h4>Request A Quote</h4>
+          <form>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Name">
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Email">
+            </div>
+            <div class="mb-2">
+              <textarea class="w-100 p-1" style="height:10vh;border-radius:10px;" placeholder="Write your Message"></textarea>
+            </div>
+            <div class="mb-3">
+              <button type="submit w-100" class="btn" style="background-color:rgb(253, 44, 7);color:white">Send Message</button>
+            </div>
+          </form>
+        </div>
+        
+      </div>
+      <div class="row justify-content-center text-center bg-dark text-white">
+        <div class="col-sm-8"><p>Copyright <i class="bi bi-c-circle bi-home"></i> <span style="color:rgb(253, 44, 7)">Amchi-Mumbai</span> 2022 . All right reserved.<br>Made with <i class="bi bi-heart bi-home"></i> by <span style="color:rgb(253, 44, 7)">Siddesh Jaiswal. </span></p></div>
+      </div>
+      <!-- end of footer -->
+    <!-- end of container-fluid -->
+    </div>
+    <script src="./app.js"></script>
+    <!-- js bootstrap part -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <!-- aos js  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

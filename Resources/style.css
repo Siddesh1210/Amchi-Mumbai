@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+nav {
+  font-family: "Poppins", sans-serif;
+}
+.nav-item:hover {
+  border-bottom: 1px solid tomato;
+}
+
+@media (min-width: 991px) {
+  .logo {
+    width: 5%;
+  }
+}
+
+@media (max-width: 990px) {
+  .logo {
+    width: 10%;
+  }
+}
+
+@media (max-width: 470px) {
+  .logo {
+    width: 13%;
+  }
+}
+
+.header {
+  background-image: url(../Images/frontpage.jpg);
+  background-position: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.font-inside-head {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase;
+}
+
+.history-head {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+@media (max-width:991px){
+  .down-content-para{
+    padding-top:20px;
+  }
+}
+
+.imagess{
+  height:400px;
+}
+@media (max-width:767px){
+  .imageplace{
+    padding-top:15px;
+  }
+}
+
+
+.places-animate:hover {
+  animation-name: animate-place;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-direction:alternate;
+  animation-fill-mode: forwards;
+  transition-delay: 2s;
+  
+}
+.image-placesss:hover{
+  box-shadow:5px 5px 10px grey;
+}
+.image-placesss{
+  border-radius: 16px;
+}
+
+@keyframes animate-place{
+    to{
+      transform: scale(1.08);
+    }
+    
+  }
+
+  .bi-home{
+    color:rgb(253, 44, 7);
+  }
+  
