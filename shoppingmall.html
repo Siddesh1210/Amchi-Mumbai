@@ -25,7 +25,14 @@
     <meta name="theme-color" content="#ffffff">
     <!-- favicon end of link -->
   </head>
-  <body>
+  <body onload="preLoad()">
+    <!-- loader start -->
+    <div class="row">
+      <div class="col-12">
+          <div id="loading"></div>
+      </div>
+    </div>
+    <!-- preloading end -->
     <!-- navbar begin -->
     <nav
       class="navbar navbar-expand-lg navbar-dark fixed-top"
