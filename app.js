@@ -31,6 +31,7 @@ function searchContext(){
     }
 }
 var loadingImage=document.getElementById("loading");
-function preLoad(){
+function preLoad()
+{
     loadingImage.style.display="none";
 }
