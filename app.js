@@ -1,10 +1,8 @@
 function searchContext(){
     let first_text=document.getElementById("input-text").value;
     let text=first_text.split(' ')[0];
-    // console.log(first_text);
-    // document.getElementById("input-text").value="";
     text=text.toLowerCase();
-    if(text=='tourist' || text== 'place' || text=='places' || text=='best' || text=='tourists' || text=='gate' || text=='bandra' || text=='gateway' || text=='cst' || text=='flora' || text=='asiatic' || text=='chhatrapati' || text=='city' || text=='tour')
+    if(text=='tourist' || text=='mumbai' || text=='bombay' || text== 'place' || text=='places' || text=='best' || text=='tourists' || text=='gate' || text=='bandra' || text=='gateway' || text=='cst' || text=='flora' || text=='asiatic' || text=='chhatrapati' || text=='city' || text=='tour')
     {
        window.open("city-tour.html","_self");
     }
@@ -31,4 +29,8 @@ function searchContext(){
     else{
         window.open("error.html",'_self');
     }
+}
+var loadingImage=document.getElementById("loading");
+function preLoad(){
+    loadingImage.style.display="none";
 }
