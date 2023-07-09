@@ -1,7 +1,3 @@
-<img width="942" alt="Screenshot 2023-07-09 145655" src="https://github.com/Siddesh1210/Amchi-Mumbai/assets/99405624/cfa473cf-2a6a-48c3-9537-a766458554b7">
-<img width="936" alt="Screenshot 2023-07-09 145643" src="https://github.com/Siddesh1210/Amchi-Mumbai/assets/99405624/a86a02a0-68b4-4345-b363-0f50e2be7e78">
-<img width="938" alt="Screenshot 2023-07-09 145628" src="https://github.com/Siddesh1210/Amchi-Mumbai/assets/99405624/a1e82658-5a36-4b38-9b0e-bc025ea8a9a6">
-<img width="941" alt="Screenshot 2023-07-09 145846" src="https://github.com/Siddesh1210/Amchi-Mumbai/assets/99405624/ccb069ca-9d97-4892-a221-099119125207">
 # Amchi-Mumbai
 This project is all about for tourist who tend to visit popular places in Mumbai in short period of time. The website consists of most attracted places in Mumbai and best hotels, waterpark, market, malls and temples to visit in Mumbai.
 <img width="941" alt="Screenshot 2023-07-09 145607" src="https://github.com/Siddesh1210/Amchi-Mumbai/assets/99405624/d621b0fa-7b70-4f29-9709-920d3bbca6e0">
